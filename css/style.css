@@ -6,6 +6,21 @@ body {
     font-family: "PT Sans" serif;
 }
 
+.main-header {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    width: 941px;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 h1 {
     font-size: 30px;
     line-height: 30px;
@@ -20,4 +35,204 @@ h2 {
     color: #000000;
     font-weight: normal;
     font-family: "Cuprum" serif;
+}
+
+header {
+    padding:10px;
+    width: 1200px;
+    border: none;
+}
+
+.header-container {
+    width: 941px;
+    height: 47px;
+    margin: 0 auto;
+    background-color: #293449;
+}
+
+.second-block {
+    background-color: #f1f5f7;
+    width: 1200px;
+    height: 278px;
+}
+
+nav{
+    width: 941px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #293449;
+    display:inline-block;
+}
+ul>li {
+    display: inline-block;
+}
+li>a {
+    color: white;
+}
+
+.promo-right {
+    width: 300px;
+    height: 409px;
+    margin-left: 20px;
+    float: right;
+}
+
+.promo-item technics {
+    width: 300px;
+    height: 123px;
+    background-color: #cc79d1;
+}
+
+.promo-item sale {
+    width: 300px;
+    height: 123px;
+    background-color: #85d179;
+}
+
+.promo-item delivery {
+    width: 300px;
+    height: 123px;
+    background-color: #f6b22d;
+}
+
+
+
+.promo-left {
+    width: 620px;
+    height: 409px;
+    float: left;
+}
+
+
+
+.promo-item drills {
+    width: 620px;
+    height: 266px;
+}
+
+.slider {
+    position: relative;
+}
+
+
+.slider-inner {
+    overflow: hidden;
+}
+
+.slider-slides{
+    width: 620px;
+}
+
+.slider-slides img {
+    float: left;
+    width: 600px;
+    height: 266px;    
+}
+
+.slider-controls {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    z-index: 100;
+    text-align: center;
+}
+
+.slider-controls label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    background: #ccc;
+    cursor: pointer;   
+    border: 4px solid white;
+    border-radius: 50%;    
+    box-shadow: 0px 0px 2px rgba(0,0,0,.8);     
+}
+
+.common {
+    clear: both;
+}
+
+.common-item {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 318px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 55px;
+    vertical-align: top;
+}
+
+.popular-brand {
+    width: 940px;
+}
+
+.brands {
+    display: inline-block;
+}
+
+ul >.brands >li {
+    display: inline-block;
+    width: 220px;
+    height: 145px;
+}
+
+
+.service {
+    background-color: #f1f5f7; 
+    height: 523px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.slider-2 {
+    position: relative;
+}
+
+
+.slider2-inner {
+    overflow: hidden;
+}
+
+.slider2-slides{
+    width: 620px;
+}
+
+.slider2-slides img {
+    float: left;
+    width: 468px;
+    height: 261px;    
+}
+
+.slider2-controls {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    z-index: 100;
+    text-align: center;
+}
+
+.slider2-controls label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    background: #ccc;
+    cursor: pointer;   
+    border: 4px solid white;
+    border-radius: 50%;    
+    box-shadow: 0px 0px 2px rgba(0,0,0,.8);     
+}
+
+.footer-container {
+    width: 1200px;
+    clear:both;
+    margin-left: auto;
+    margin-right: auto;
 }
